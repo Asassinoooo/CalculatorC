@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+
+
+
+float addition(float a, float b){
+    float total = a + b;
+    return total;
+}
 int main(){
     int pilihan = 0;
     float a,b;
@@ -15,8 +22,7 @@ int main(){
     scanf("%f",&b);
     switch(pilihan){
         case 1:
-            float result = a + b;
-            printf("Addition result: ", result);
+            printf("Result: ", addition(a,b));
             break;
         case 2:
 
