@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+float Multiplication(float a, float b) {
+    return a * b;
+}
+
 float addition(float a, float b){
     float total = a + b;
     return total;
