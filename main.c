@@ -23,7 +23,7 @@ int main(){
     scanf("%f",&b);
     switch(pilihan){
         case 1:
-            printf("Result: ", addition(a,b));
+            printf("Result: %f", addition(a,b));
             break;
         case 2:
 
