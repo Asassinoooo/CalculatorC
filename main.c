@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+float division(float a, float b){
+    float total = a/b;
+    return total;
+}
 int main(){
     int pilihan = 0;
     float a,b;
@@ -24,7 +28,7 @@ int main(){
 
             break;
         case 4:
-
+            printf("Result: %f",division(a,b));
             break;
         default: 
 
