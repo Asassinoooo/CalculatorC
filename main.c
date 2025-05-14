@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+float Multiplication(float a, float b) {
+    return a * b;
+}
+
 int main(){
     int pilihan = 0;
     float a,b;
