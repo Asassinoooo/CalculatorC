@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+float addition(float a, float b){
+    float total = a + b;
+    return total;
+}
 float division(float a, float b){
     float total = a/b;
     return total;
@@ -19,7 +23,7 @@ int main(){
     scanf("%f",&b);
     switch(pilihan){
         case 1:
-
+            printf("Result: ", addition(a,b));
             break;
         case 2:
 
