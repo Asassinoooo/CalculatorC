@@ -33,7 +33,7 @@ int main(){
 
             break;
         case 3:
-
+            printf("Result: %f",Multiplication(a,b));
             break;
         case 4:
             printf("Result: %f",division(a,b));
