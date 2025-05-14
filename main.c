@@ -15,7 +15,8 @@ int main(){
     scanf("%f",&b);
     switch(pilihan){
         case 1:
-
+            float result = a + b;
+            printf("Addition result: ", result);
             break;
         case 2:
 
