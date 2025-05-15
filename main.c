@@ -14,7 +14,7 @@ float division(float a, float b){
 }
 
 float subtraction(float a, float b){
-	return a-b
+	return a-b;
 }
 int main(){
     int pilihan = 0;
