@@ -12,6 +12,10 @@ float division(float a, float b){
     float total = a/b;
     return total;
 }
+
+float subtraction(float a, float b){
+	return a-b;
+}
 int main(){
     int pilihan = 0;
     float a,b;
@@ -30,7 +34,7 @@ int main(){
             printf("Result: %f", addition(a,b));
             break;
         case 2:
-
+ 			printf("Result: %f",subtraction(a,b));
             break;
         case 3:
             printf("Result: %f",Multiplication(a,b));
